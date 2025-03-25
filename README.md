@@ -1,11 +1,14 @@
 # Neuroglancer Benchmark for Automated Proofreading
 
-The pipeline to obtain full connectomes (brain wirings) is steadily being fully automated, from the images obtained by electron microscopy, segmentation models then build 3D models of the neurons. However, even with superhuman precision from the models, some reconstructed neurons bear errors. Currently, a team of human proofreaders are manually finding these errors and correcting them through a Web Interface called **Neuroglancer**.
+The pipeline to obtain full connectomes (brain wirings) is steadily being fully automated, from the images obtained by electron microscopy, segmentation models then build 3D models of the neurons. However, even with superhuman precision from the models, some reconstructed neurons bear errors. 
+
+Currently, a team of human proofreaders are manually finding these errors and correcting them through a Web Interface called **Neuroglancer**.
+
 This is **unscalable**. We need **Agents** capable of making human-level decisions and applying them through the Web interface onto the neurons to help our teams. The Neuroglancer environment is a challenging one. While the overall goal is fully automated proofreading, we could imagine several intermediate challenges that could lead to it. (navigating efficiently neurons, finding errors, finding synapses…).
 
 ## Understanding the Setup
 
-- **[Flywire Tutorial](https://ngl.flywire.ai/)**: Provides access to neurons in a Neuroglancer-like environment, including a proofreading tutorial.  
+- **[Flywire Environment Tutorial](https://ngl.flywire.ai/)**: Provides access to neurons in a Neuroglancer-like environment, including a proofreading tutorial. This gives access to the neuron reconstruction of the female fly brain.
 
 ## Example Videos  
 
