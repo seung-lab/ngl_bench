@@ -14,12 +14,12 @@ This is **unscalable**. We need **Agents** capable of making human-level decisio
 
 ### 1. Human Proofreader in Action  
 Example of a human proofreader making a sequence of actions. He detects an **abnormal cut**, explores the nearby environment and corrects the error.  
-[![Proofreading Video](example_videos/video_1_proofreading_thumbnail.mov)](example_videos/video_1_proofreading_thumbnail.mov)  
+[![Proofreading Video](example_videos/gifs/video_1.gif)](example_videos/gifs/video_1.gif)  
 
 ### 2. Model Clicking on the Highest Z Position  
 Example of a trained model clicks on the **highest Z position** (blue axis) of a neuron within its field of view. The action space is limited to clicking only. Future improvements could incorporate **zooming out and changing orientation** for faster navigation. Manipulating a 3D environment is a difficult task and is one of the main challenges in automated proofreading.
-[![Highest Z Clicker](example_videos/video_2_highest_z_clicker.mov)](example_videos/video_2_highest_z_clicker.mov)  
+[![Highest Z Clicker](example_videos/gifs/video_2.gif)](example_videos/gifs/video_2.gif)  
 
 ### 3. Programmatic Use of Neuroglancer  
 Existing code for **Neuroglancer integration with Python**, showing how the environment can be used in **reinforcement learning (RL)** setups to return images, states, and execute direct actions. The code  was built for fast querying by writing direct Javascript commands with Selenium.
-[![Neuroglancer Environment](example_videos/video_3_moving.mov)](example_videos/video_3_moving.mov)  
+[![Neuroglancer Environment](example_videos/gifs/video_3.gif)](example_videos/gifs/video_3.gif)  
