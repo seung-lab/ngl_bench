@@ -14,7 +14,7 @@ The **Neuroglancer environment** presents several challenges. While the ultimate
 
 ### 1. Human Proofreader in Action  
 A proofreader manipulates a neuron, detects an **abnormal cut**, and takes corrective action.  
-[![Proofreading Video](example_videos/video_1_proofreading.mp4)](example_videos/video_1_proofreading.mp4)  
+[![Proofreading Video](example_videos/video_1_proofreading_thumbnail.mov)](example_videos/video_1_proofreading_thumbnail.mov)  
 
 ### 2. Model Clicking on the Highest Z Position  
 A trained model clicks on the **highest Z position** (blue axis) of a neuron within its field of view. The action space is limited to clicking only. Future improvements could incorporate **zooming out and changing orientation** for efficiency.  
@@ -22,4 +22,4 @@ A trained model clicks on the **highest Z position** (blue axis) of a neuron wit
 
 ### 3. Programmatic Use of Neuroglancer  
 Demonstrates **Neuroglancer integration with Python**, showing how the environment can be used in **reinforcement learning (RL)** setups to return images, states, and execute direct actions.  
-[![Neuroglancer Environment](example_videos/video_3_environment.mov)](example_videos/video_3_environment.mov)  
+[![Neuroglancer Environment](example_videos/video_3_environment_thumbnail.mov)](example_videos/video_3_environment_thumbnail.mov)  
