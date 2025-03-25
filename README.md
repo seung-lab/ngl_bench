@@ -22,4 +22,4 @@ Example of a trained model clicks on the **highest Z position** (blue axis) of a
 
 ### 3. Programmatic Use of Neuroglancer  
 Existing code for **Neuroglancer integration with Python**, showing how the environment can be used in **reinforcement learning (RL)** setups to return images, states, and execute direct actions. The code  was built for fast querying by writing direct Javascript commands with Selenium.
-[![Neuroglancer Environment](example_videos/video_3_environment_thumbnail.mov)](example_videos/video_3_environment_thumbnail.mov)  
+[![Neuroglancer Environment](example_videos/video_3_moving.mov)](example_videos/video_3_moving.mov)  
