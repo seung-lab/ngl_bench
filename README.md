@@ -10,11 +10,35 @@ This is **unscalable**. Proofreaders must tediously analyze the local structure 
 
 We need **Agents** capable of making human-level observations as well as decisions and applying them through the Web interface onto the neurons to help our team. This is no easy task - proofreading aside, the Neuroglancer environment is a challenge to successfully understand and utilize due to its many dynamic visual inputs. While the overall goal is fully automated proofreading, there are several intermediate challenges that agentic approachs must address such as efficiently navigating through neurons, finding errors, and finding synapses...
 
-## ❔ Understanding the Setup
+## ❔ Setup
+
+### Understanding Neuroglancer
 
 - **[Flywire Environment Tutorial](https://ngl.flywire.ai/)**: Provides access to neurons in a Neuroglancer-like environment, including a proofreading & navigation tutorial. This gives access to the neuron reconstruction of the female fly brain.
+- We highly recommend revisiting **[this](ADVICE.md)** FAQ for more specific information on Neuroglancer once you have finished the setup steps below!
 
-## Example Videos  
+### Installing Neuroglancer
+
+FlyWire is an online implementation of Neuroglancer, built to host edits by multiple proofreaders in one location. For development and testing purposes, we recommend locally installing **[Neuroglancer](https://github.com/seung-lab/neuroglancer/tree/rl-recording)** rather than using FlyWire.
+
+See the bottom of this section for common troubleshooting advice.
+
+1. Clone the **rl-recording** branch of Neuroglancer **[here](https://github.com/seung-lab/neuroglancer/tree/rl-recording)**.
+2. Run `npm install`
+3. Run `npm run build`
+4. Start a local instance of Neuroglancer by running `python -m http.server --directory dist/ 8000`
+5. Open [http://localhost:8000/client]() to test if your install process was successful; you should see the Neuroglancer user interface load in an empty 4-pane view.
+
+**Note**: after successfully hosting Neuroglancer for the first time, you only need to follow steps 4-5 to host again.
+
+#### Troubleshooting tips
+- Try reinstalling Node
+
+### Interfacing with Neuroglancer
+
+For your convenience, we have provided a Python class containing functions that automate the initialization process and streamline action applications to Neuroglancer. Please see [here](INTEGRATION.md) for more information. 
+
+## 📷 Example Videos
 
 ### 1. Human Proofreader in Action  
 Example of a human proofreader making a sequence of actions. He detects an **abnormal cut**, explores the nearby environment and corrects the error.  
